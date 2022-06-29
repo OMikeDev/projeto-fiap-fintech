@@ -1,0 +1,259 @@
+body{
+  background-color: #252154;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: verdana;
+}
+
+.container-fluid {
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 30px;
+}
+
+.row {
+  margin-bottom: 5px;
+}
+
+header, main, footer {
+  background-color: #252154;
+  
+  font-size: 50px;
+  padding: 10px;
+  text-align: center;
+  color: red;
+
+}
+
+
+form {
+    font-size: 30px;
+}
+
+}
+main {
+  font-size: 50px;
+
+  text-align: center  ;
+}
+
+.valoresR {
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  padding-top: 5px;
+}
+
+.valoresR2 {
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  padding-top: 5px;
+}
+
+.labelsR {
+  text-align: center;
+  color: red; 
+  font-size: 20px;
+  padding-top: 50px;
+ } 
+
+.labelsR2 {
+  text-align: center;
+  color: red; 
+  font-size: 20px;
+  padding-top: 50px;
+ }  
+
+
+.button_tipo1 {
+  background-color:red ;
+  color: white;
+  font-size: 30px;
+  border-radius: 30px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-top: 20px;
+  margin-bottom: 60px;
+  font-family: verdana;
+}
+
+.button_tipo2 {
+  background-color:#64b1d2 ;
+  color: white;
+  font-size: 30px;
+  border-radius: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: verdana;
+}
+
+.button_tipo3 {
+  background-color:red ;
+  color: white;
+  font-size: 30px;
+  border-radius: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  align-self: center;
+  width: 500px;
+  margin-top: 20px;
+  font-family: verdana;
+}
+
+.text_login {
+  text-align: left;
+  color: white;
+  font-size: 25px;
+}
+
+.caixa_login {
+  border-radius: 30px;
+}
+
+.text_herder {
+  font-size: 35px;
+  padding-bottom: 15px;
+}
+
+#text_perfil{
+  text-align: left;
+}
+
+#separador {
+  height: 1px;
+  background-color: #64b1d2;
+}
+
+header div h1 {
+  padding: 0px;
+  font-size: 60px;
+}
+
+.herder_login {
+  padding: 40px;
+  font-size: 60px;
+}
+
+h5 {
+    font-size: 20px;
+}
+
+.center {
+  text-align: center;
+  align-self: center;
+  align-content: center;
+  align-items: center;
+  alignment-baseline: central;
+}
+@media screen and (max-width: 540px)
+{
+header div h1 {
+  padding: 10px;
+  font-size: 30px;
+}
+
+  #row1 
+  {
+    visibility: hidden
+    
+  }
+
+  #row2
+  {
+    visibility: hidden
+  }
+
+  form input {
+    width: 230px;
+    height: 40px;
+    font-size: 20px;
+  }
+
+  header, main, footer {
+  padding: 15px;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+  h5 {
+    font-size: 15px;
+  }
+  #perfil_foto {
+    width: 50px; 
+    height: 50px;
+  }
+
+  #menu {
+    width: 35px; 
+    height: 35px;
+    vertical-align: center;
+    text-align:center ;    
+  }
+  #text_perfil{
+  text-align: center;
+}
+
+  .text_herder {
+  font-size: 18px;
+  padding-bottom: 5px;
+}
+
+.button_tipo1 {
+  background-color:red ;
+  color: white;
+  font-size: 20px;
+  border-radius: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  width: 150px;
+  font-family: verdana;
+}
+.button_tipo2 {
+  background-color:#64b1d2 ;
+  color: white;
+  font-size: 20px;
+  border-radius: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 5px;
+  font-family: verdana;
+}
+
+.button_tipo3 {
+  background-color:red ;
+  color: white;
+  font-size: 20px;
+  border-radius: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+  width: 300px;
+  margin-top: 10px;
+  font-family: verdana;
+}
+
+  .input {
+  font-size: 10px;
+  height: 20px;
+  max-height: 20px;
+  }
+
+
+  .titulo_login {
+    text-align: left;
+    font-size: 30px;
+  }
+  .labelsR {
+    padding-top: 20px;
+  }
+}
